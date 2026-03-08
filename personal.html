@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Chloe Chavez | Personal</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins', sans-serif;
+}
+
+/* FULL BACKGROUND */
+
+body{
+color:white;
+background:url("pink.jpg") no-repeat center center fixed;
+background-size:cover;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:30px 80px;
+}
+
+.logo{
+font-size:32px;
+font-weight:600;
+
+text-shadow:
+0 0 10px #fff,
+0 0 20px #ff99dd,
+0 0 40px #ff4da6;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:40px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+font-size:20px;
+font-weight:600;
+padding:8px 16px;
+border-radius:20px;
+transition:0.3s;
+}
+
+nav ul li a:hover{
+background:rgba(255,255,255,0.2);
+box-shadow:0 0 10px #ff99dd;
+}
+
+/* SECTION AREA */
+
+.section{
+display:flex;
+justify-content:center;
+padding:80px 20px;
+}
+
+/* BLACK GLOW BOX */
+
+.box{
+max-width:1000px;
+padding:50px;
+background:rgba(0,0,0,0.65);
+border-radius:20px;
+
+/* glowing border */
+border:2px solid #ff99dd;
+
+box-shadow:
+0 0 10px #ff99dd,
+0 0 20px #ff4da6,
+0 0 40px #ff4da6;
+
+text-align:center;
+}
+
+/* TITLES */
+
+.box h2{
+font-size:48px;
+margin-bottom:20px;
+
+text-shadow:
+0 0 10px #fff,
+0 0 20px #ff99dd,
+0 0 40px #ff4da6;
+}
+
+/* TEXT */
+
+.box p{
+font-size:20px;
+line-height:1.6;
+margin-bottom:40px;
+}
+
+/* MEDIA GRID */
+
+.media-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+/* IMAGES */
+
+.media-grid img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:15px;
+}
+
+/* VIDEO */
+
+.media-grid video{
+width:100%;
+border-radius:15px;
+}
+
+/* HOME BUTTON */
+
+.home-btn{
+display:inline-block;
+margin-top:50px;
+padding:14px 28px;
+font-size:18px;
+font-weight:600;
+color:white;
+text-decoration:none;
+border-radius:30px;
+background:rgba(255,255,255,0.2);
+transition:0.3s;
+}
+
+.home-btn:hover{
+box-shadow:0 0 15px #ff99dd;
+transform:scale(1.05);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">Chloe Chavez</div>
+
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="ap.html">AP</a></li>
+<li><a href="tle.html">TLE</a></li>
+</ul>
+
+</nav>
+
+
+<!-- PERSONAL DETAILS -->
+
+<section class="section">
+
+<div class="box">
+
+<h2>Personal Details</h2>
+
+<p>
+My name is Chloe Cienna O. Chavez, 14 years old, and born on September 16, 2011.
+My hobbies are drawing, writing, dancing, and singing. I like listening to music
+while studying or relaxing, watching romcom movies, eating sweet snacks like
+ice cream or donuts, taking photos, and travelling.
+
+However, I don't like people who are rude or disrespectful, getting ignored by
+close friends, and losing Wi-Fi.
+</p>
+
+<div class="media-grid">
+
+<img src="personal1.jpg">
+<img src="personal2.jpg">
+<img src="personal3.jpg">
+<img src="personal4.jpg">
+
+<video controls>
+<source src="personalvideo.mp4" type="video/mp4">
+</video>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FRIENDS -->
+
+<section class="section">
+
+<div class="box">
+
+<h2>Circle of Friends</h2>
+
+<p>
+My main friend group consists of twelve people with beautiful souls. I truly
+treasure each one of my friends and will forever thank them for coming into
+my life.
+</p>
+
+<div class="media-grid">
+
+<img src="friends1.jpg">
+<img src="friends2.jpg">
+<img src="friends3.jpg">
+<img src="friends4.jpg">
+
+<video controls>
+<source src="friendsvideo.mp4" type="video/mp4">
+</video>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FAMILY -->
+
+<section class="section">
+
+<div class="box">
+
+<h2>My Family</h2>
+
+<p>
+My safe space. I love my family a lot and they are the best people ever.
+They have taught me valuable life lessons and raised me well.
+</p>
+
+<div class="media-grid">
+
+<img src="family1.jpg">
+<img src="family2.jpg">
+<img src="family3.jpg">
+<img src="family4.jpg">
+
+<video controls>
+<source src="familyvideo.mp4" type="video/mp4">
+</video>
+
+</div>
+
+</div>
+
+</section>
+
+
+<div style="text-align:center; padding-bottom:80px;">
+<a class="home-btn" href="index.html">← BACK TO HOMEPAGE</a>
+</div>
+
+</body>
+</html>
