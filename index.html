@@ -19,6 +19,11 @@ box-sizing:border-box;
 font-family:"Poppins", sans-serif;
 }
 
+html,body{
+height:100%;
+overflow-x:hidden;
+}
+
 /* BACKGROUND */
 
 body{
@@ -26,11 +31,9 @@ color:white;
 min-height:100vh;
 
 background-image:url("pink.jpg");
-background-position:center;
 background-size:cover;
+background-position:center;
 background-repeat:no-repeat;
-
-animation:bgZoom 20s ease-in-out infinite alternate;
 }
 
 /* NAVBAR */
@@ -73,6 +76,7 @@ align-items:center;
 justify-content:space-between;
 padding:100px;
 gap:80px;
+flex-wrap:wrap;
 }
 
 /* FLOAT TEXT */
@@ -90,7 +94,7 @@ animation:textFloat 4s ease-in-out infinite;
 /* TITLE */
 
 .text h1{
-font-size:80px;
+font-size:85px;
 margin-bottom:20px;
 
 text-shadow:
@@ -112,7 +116,7 @@ text-shadow:
 0 0 5px #fff,
 0 0 10px #ff99dd;
 
-margin-bottom:30px;
+margin-bottom:35px;
 }
 
 /* BUTTON */
@@ -120,7 +124,7 @@ margin-bottom:30px;
 .button{
 display:inline-block;
 
-padding:14px 28px;
+padding:14px 32px;
 font-size:18px;
 
 border-radius:30px;
@@ -142,7 +146,7 @@ transform:scale(1.05);
 /* IMAGE */
 
 .hero img{
-width:520px;
+width:600px;
 max-width:100%;
 height:auto;
 
@@ -158,7 +162,7 @@ mask-image: radial-gradient(circle, black 65%, transparent 100%);
 100%{transform:translateY(0);}
 }
 
-/* MOBILE */
+/* MOBILE FIX */
 
 @media (max-width:768px){
 
@@ -177,7 +181,7 @@ padding:60px 25px;
 }
 
 .text h1{
-font-size:48px;
+font-size:50px;
 }
 
 .text p{
@@ -208,6 +212,7 @@ margin-top:40px;
 </ul>
 
 </nav>
+
 
 <div class="hero">
 
