@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TLE Activities</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:url("pink.jpg") no-repeat center center fixed;
+background-size:cover;
+color:white;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:30px 80px;
+}
+
+.logo{
+font-family:'Playfair Display',serif;
+font-size:30px;
+
+text-shadow:
+0 0 10px #fff,
+0 0 20px #ff99dd,
+0 0 40px #ff4da6;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:40px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+font-size:18px;
+font-weight:600;
+}
+
+/* SECTION */
+
+.section{
+display:flex;
+flex-direction:column;
+align-items:center;
+padding:60px 20px;
+gap:40px;
+}
+
+/* QUARTER TITLES */
+
+.quarter-title{
+font-family:'Playfair Display',serif;
+font-size:40px;
+
+text-shadow:
+0 0 10px #fff,
+0 0 20px #ff99dd,
+0 0 40px #ff4da6;
+}
+
+/* ACTIVITY TITLE */
+
+.activity-title{
+font-family:'Playfair Display',serif;
+font-size:28px;
+margin-bottom:10px;
+
+text-shadow:
+0 0 10px #fff,
+0 0 20px #ff99dd,
+0 0 40px #ff4da6;
+}
+
+/* BOX */
+
+.box{
+max-width:900px;
+width:100%;
+padding:40px;
+
+background:rgba(0,0,0,0.65);
+
+border-radius:20px;
+border:2px solid #ff99dd;
+
+box-shadow:
+0 0 10px #ff99dd,
+0 0 25px #ff4da6;
+}
+
+/* TEXT */
+
+.box p{
+line-height:1.7;
+font-size:16px;
+}
+
+/* MEDIA */
+
+.media{
+margin-top:25px;
+}
+
+.media img{
+width:100%;
+height:auto;
+border-radius:10px;
+border:2px solid #ff99dd;
+}
+
+.media video{
+width:100%;
+border-radius:10px;
+border:2px solid #ff99dd;
+}
+
+/* BUTTONS */
+
+.home-container{
+display:flex;
+justify-content:center;
+gap:20px;
+padding:40px;
+}
+
+.home-btn{
+padding:10px 20px;
+font-size:16px;
+border:none;
+border-radius:10px;
+
+background:#ff66b3;
+color:white;
+
+cursor:pointer;
+
+box-shadow:0 0 10px #ff99dd;
+}
+
+.home-btn:hover{
+background:#ff3385;
+}
+.video-thumb{
+width:100%;
+border-radius:10px;
+border:2px solid #ff99dd;
+cursor:pointer;
+}
+
+.popup{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.8);
+display:none;
+justify-content:center;
+align-items:center;
+z-index:999;
+}
+
+.popup iframe{
+width:80%;
+height:70%;
+border-radius:10px;
+border:2px solid #ff99dd;
+}
+
+.popup-close{
+position:absolute;
+top:20px;
+right:30px;
+font-size:30px;
+color:white;
+cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">Chloe Chavez</div>
+
+<ul>
+<li><a href="ap.html">AP</a></li>
+<li><a href="tle.html">TLE</a></li>
+<li><a href="personal.html">PERSONAL</a></li>
+</ul>
+
+</nav>
+
+<section class="section">
+
+<h1 class="quarter-title">3rd Quarter</h1>
+
+<div class="box">
+
+<h2 class="activity-title">Math Mural</h2>
+
+<p>
+Seeing the math mural made me realize that math can also be creative and artistic. Even though I didn’t help make it, I appreciated the effort and teamwork that my classmates put into it. It was interesting to see how mathematical ideas could be shown through art.
+</p>
+
+<div class="media">
+<img src="math_mural.jpg">
+</div>
+
+</div>
+
+
+<div class="box">
+
+<h2 class="activity-title">Math Garden</h2>
+
+<p>
+Seeing the Math Garden was interesting for me even though I wasn’t part of making it. I liked how math concepts were displayed creatively around the area. It showed me that math can be fun and can be seen in different ways outside the classroom.
+</p>
+
+<div class="media">
+<img src="math_garden.jpg">
+</div>
+
+</div>
+
+
+<div class="box">
+
+<h2 class="activity-title">V-Pop</h2>
+
+<p>
+Being part of the V-Pop performance was a fun and meaningful experience for me. It was exciting to perform and show important values through music and presentation. Through this activity, I learned the importance of teamwork, confidence, and expressing positive values.
+</p>
+
+<div class="media">
+<video controls>
+<source src="vpop.mp4" type="video/mp4">
+</video>
+</div>
+
+</div>
+
+
+<h1 class="quarter-title">4th Quarter</h1>
+
+
+<div class="box">
+
+<h2 class="activity-title">Street Dance</h2>
+
+<p>
+Joining the street dance competition was a memorable experience for me. It was challenging because of the practices, but it was also fun and exciting. I learned the importance of teamwork, hard work, and confidence while performing with my group.
+</p>
+
+<div class="media">
+<img src="streetdance.jpg">
+</div>
+
+<div class="media">
+<video controls>
+<source src="streetdance.mp4" type="video/mp4">
+</video>
+</div>
+
+</div>
+
+
+<div class="box">
+
+<h2 class="activity-title">Folk Dance</h2>
+
+<p>
+Watching the folk dance performance was a great experience for me. I enjoyed seeing the colorful costumes and the traditional movements of the dancers. It made me appreciate our culture more and understand how dances can show the history and traditions of our country.
+</p>
+
+<div class="media">
+<img src="folkdance.jpg">
+</div>
+
+</div>
+
+
+<div class="box">
+
+<h2 class="activity-title">Battle of the Bands</h2>
+
+<p>
+Watching the Battle of the Bands was a very exciting experience for me. I enjoyed listening to the different bands and seeing their talent and confidence. It was fun to watch and it made me appreciate music and the hard work the performers put into their performances.
+</p>
+
+<div class="media">
+<img src="battle_bands.jpg">
+</div>
+
+</div>
+
+
+<div class="box">
+
+<h2 class="activity-title">OPM Duet</h2>
+
+<p>
+Watching the OPM duet performance was a great experience for me. I enjoyed listening to the beautiful and emotional songs. It helped me appreciate Filipino music and culture more, and I admired the performers for their talent and confidence.
+</p>
+
+<div class="media">
+<img src="opm_duet.jpg">
+</div>
+
+</div>
+
+
+<h1 class="quarter-title">Noli Me Tangere</h1>
+
+<div class="box">
+
+<p>
+Joining the Noli Me Tangere play as both a props team member and an actor was a meaningful experience for me. It was challenging to balance preparing the props and performing on stage, but it was also very fun and memorable. Through this experience, I learned the importance of teamwork, responsibility, and confidence while bringing the story to life.
+</p>
+
+  <p> Click the thumbnail to play. </p>  
+  
+<div class="media">
+
+<a href="https://youtu.be/ehDGjAo9a8Q" target="_blank">
+
+<img src="https://img.youtube.com/vi/ehDGjAo9a8Q/maxresdefault.jpg"
+style="width:100%; border-radius:10px; border:2px solid #ff99dd;">
+
+</a>
+
+</div>
+
+</div>
+
+
+</section>
+
+
+<div class="home-container">
+
+<a href="tle.html">
+<button class="home-btn">← Back to TLE</button>
+</a>
+
+<a href="index.html">
+<button class="home-btn">Home</button>
+</a>
+
+</div>
+<div class="popup" id="videoPopup">
+
+<span class="popup-close" onclick="closeVideo()">✕</span>
+
+<iframe
+src=""
+id="videoFrame"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+
+</div>
+  <script>
+
+function openVideo(){
+document.getElementById("videoPopup").style.display="flex";
+document.getElementById("videoFrame").src="https://www.youtube.com/embed/ehDGjAo9a8Q?autoplay=1";
+}
+
+function closeVideo(){
+document.getElementById("videoPopup").style.display="none";
+document.getElementById("videoFrame").src="";
+}
+
+</script>
+</body>
+</html>
