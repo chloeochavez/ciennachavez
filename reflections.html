@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AP Reflections</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Poppins", sans-serif;
+}
+
+body{
+background:url("pink.jpg") no-repeat center center fixed;
+background-size:cover;
+color:white;
+}
+
+/* NAV */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:30px 80px;
+}
+
+.logo{
+font-size:30px;
+font-family:"Playfair Display", serif;
+text-shadow:0 0 10px #fff,0 0 20px #ff99dd,0 0 40px #ff4da6;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:40px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+font-size:18px;
+font-weight:600;
+}
+
+/* SECTION */
+
+.section{
+display:flex;
+flex-direction:column;
+align-items:center;
+padding:60px 20px;
+gap:50px;
+}
+
+/* BOX */
+
+.box{
+max-width:900px;
+width:100%;
+padding:50px;
+
+background:rgba(0,0,0,0.65);
+
+border-radius:20px;
+border:2px solid #ff99dd;
+
+box-shadow:
+0 0 10px #ff99dd,
+0 0 25px #ff4da6;
+}
+
+/* TITLES */
+
+.box h1{
+text-align:center;
+font-family:"Playfair Display", serif;
+font-size:36px;
+margin-bottom:25px;
+
+text-shadow:
+0 0 10px #fff,
+0 0 20px #ff99dd,
+0 0 40px #ff4da6;
+}
+
+.box p{
+line-height:1.8;
+font-size:16px;
+}
+
+/* REFLECTION LAYOUT */
+
+.reflection{
+display:flex;
+align-items:center;
+gap:25px;
+}
+
+.reflection p{
+flex:1;
+}
+/* SIDE IMAGES */
+
+.side-img{
+width:120px;
+opacity:0.6;
+animation:floatImage 6s ease-in-out infinite;
+filter:drop-shadow(0 0 10px #ff99dd);
+}
+
+/* LEFT + RIGHT slight fade */
+
+.left{
+mask-image: linear-gradient(to right, transparent 0%, black 40%);
+}
+
+.right{
+mask-image: linear-gradient(to left, transparent 0%, black 40%);
+}
+
+/* FLOAT ANIMATION */
+
+@keyframes floatImage{
+0%{transform:translateY(0);}
+50%{transform:translateY(-12px);}
+100%{transform:translateY(0);}
+}
+  
+/* BUTTONS */
+
+.buttons{
+display:flex;
+justify-content:center;
+gap:20px;
+padding:40px;
+}
+
+.buttons button{
+padding:12px 30px;
+border:none;
+border-radius:10px;
+
+background:#ff66b3;
+color:white;
+font-size:16px;
+
+cursor:pointer;
+
+box-shadow:0 0 10px #ff99dd;
+
+transition:0.3s;
+}
+
+.buttons button:hover{
+background:#ff3385;
+transform:scale(1.05);
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">Chloe Chavez</div>
+
+<ul>
+<li><a href="ap.html">AP</a></li>
+<li><a href="tle.html">TLE</a></li>
+<li><a href="personal.html">PERSONAL</a></li>
+</ul>
+
+</nav>
+
+<section class="section">
+
+<div class="box">
+
+<h1>3rd Quarter Reflection</h1>
+
+<div class="reflection">
+
+<img src="book.png" class="side-img left">
+
+<p>
+Sa ikatlong quarter ng Araling Panlipunan, marami akong natutunan tungkol sa ekonomiya ng bansa. 
+Naintindihan ko kung paano gumagana ang makroekonomiks, GDP at GNP, implasyon, at iba pang bahagi 
+ng ekonomiya. Nalaman ko rin kung paano nakakaapekto ang mga patakarang pang-ekonomiya sa buhay ng 
+mga mamamayan. Dahil dito, mas naging malinaw sa akin kung bakit mahalaga ang tamang pamamahala ng 
+ekonomiya upang umunlad ang isang bansa. Bilang isang mag-aaral, natutunan ko rin na mahalaga ang 
+pagiging responsable at matalino sa paggamit ng pera at mga yaman.
+</p>
+
+<img src="globe.png" class="side-img right">
+
+</div>
+
+</div>
+
+
+<div class="box">
+
+<h1>4th Quarter Reflection</h1>
+
+<div class="reflection">
+
+<img src="book.png" class="side-img left">
+
+<p>
+Sa ikaapat na quarter, natutunan ko ang iba't ibang sektor ng ekonomiya tulad ng agrikultura, 
+industriya, paglilingkod, at impormal na sektor. Naintindihan ko kung gaano kahalaga ang bawat 
+sektor sa pag-unlad ng bansa. Natutunan ko rin ang tungkol sa kalakalang panlabas at kung paano 
+nakikipag-ugnayan ang Pilipinas sa ibang bansa sa pamamagitan ng kalakalan. Dahil sa mga araling 
+ito, mas naunawaan ko kung paano nagtutulungan ang iba't ibang sektor upang mapalago ang ekonomiya. 
+Bilang isang mag-aaral, natutunan ko na mahalagang suportahan ang lokal na produkto at maging 
+responsableng mamamayan para sa kaunlaran ng bansa.
+</p>
+
+<img src="globe.png" class="side-img right">
+
+</div>
+
+</div>
+
+</section>
+
+<div class="buttons">
+
+<a href="index.html">
+<button>← Home</button>
+</a>
+
+<a href="ap.html">
+<button>AP Page</button>
+</a>
+
+</div>
+
+
+</body>
+</html>
