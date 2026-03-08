@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Chloe Chavez E-Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Poppins", sans-serif;
+}
+
+/* BACKGROUND */
+
+body{
+color:white;
+min-height:100vh;
+
+background:url("pink.jpg") no-repeat center center fixed;
+background-size:cover;
+
+animation:bgZoom 20s ease-in-out infinite alternate;
+}
+
+@keyframes bgZoom{
+0%{background-size:100%;}
+100%{background-size:110%;}
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:30px 80px;
+}
+
+.logo{
+font-family:"Playfair Display", serif;
+font-size:32px;
+
+text-shadow:
+0 0 10px #fff,
+0 0 20px #ff99dd,
+0 0 40px #ff4da6;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:40px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+font-size:18px;
+font-weight:600;
+}
+
+/* HERO SECTION */
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:100px;
+gap:80px;
+}
+
+/* FLOAT TEXT */
+
+.text{
+animation:textFloat 4s ease-in-out infinite;
+}
+
+@keyframes textFloat{
+0%{transform:translateY(0);}
+50%{transform:translateY(-10px);}
+100%{transform:translateY(0);}
+}
+
+/* TITLE */
+
+.text h1{
+font-size:80px;
+margin-bottom:20px;
+
+text-shadow:
+0 0 10px #fff,
+0 0 20px #ff99dd,
+0 0 40px #ff4da6;
+}
+
+/* SUBTEXT */
+
+.text p{
+font-family:"Playfair Display", serif;
+font-size:34px;
+line-height:1.4;
+
+color:#ffe6f5;
+
+text-shadow:
+0 0 5px #fff,
+0 0 10px #ff99dd;
+
+margin-bottom:30px;
+}
+
+/* BUTTON */
+
+.button{
+display:inline-block;
+
+padding:14px 28px;
+font-size:18px;
+
+border-radius:30px;
+
+background:rgba(255,255,255,0.2);
+backdrop-filter:blur(5px);
+
+color:white;
+text-decoration:none;
+
+transition:0.3s;
+}
+
+.button:hover{
+box-shadow:0 0 15px #ff99dd;
+transform:scale(1.05);
+}
+
+/* IMAGE */
+
+.hero img{
+width:520px;
+max-width:100%;
+height:auto;
+
+animation:floatImage 6s ease-in-out infinite;
+
+-webkit-mask-image: radial-gradient(circle, black 65%, transparent 100%);
+mask-image: radial-gradient(circle, black 65%, transparent 100%);
+}
+
+@keyframes floatImage{
+0%{transform:translateY(0);}
+50%{transform:translateY(-15px);}
+100%{transform:translateY(0);}
+}
+
+/* MOBILE */
+
+@media (max-width:768px){
+
+nav{
+padding:20px;
+}
+
+nav ul{
+gap:20px;
+}
+
+.hero{
+flex-direction:column;
+text-align:center;
+padding:60px 25px;
+}
+
+.text h1{
+font-size:48px;
+}
+
+.text p{
+font-size:24px;
+}
+
+.hero img{
+width:85%;
+margin-top:40px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">Chloe Chavez</div>
+
+<ul>
+<li><a href="ap.html">AP</a></li>
+<li><a href="tle.html">TLE</a></li>
+<li><a href="personal.html">PERSONAL</a></li>
+</ul>
+
+</nav>
+
+<div class="hero">
+
+<div class="text">
+
+<h1>Hi, I'm Chloe Chavez</h1>
+
+<p>
+This is my E-PORTFOLIO for the 3RD<br>
+and 4TH Quarter, welcome!
+</p>
+
+<a class="button" href="https://chloeochavez.github.io/chloechavezwebsites/?fbclid=IwY2xjawQZtHNleHRuA2FlbQIxMABicmlkETFXTXU4aERIN1dhRGxRZDYxc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHm00Q9Ge7pEftPxFLD2j1rpdvfJcEMHz7FIMVpilbTJ1uiPjOHdPzyqJXdCo_aem_4KB4b-Jla9URDvOgl-Sbyg">
+
+← Go back to the 2ND Quarter
+
+</a>
+
+</div>
+
+<img src="chloe.png" alt="Chloe Chavez">
+
+</div>
+
+</body>
+</html>
